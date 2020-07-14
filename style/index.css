@@ -1,0 +1,721 @@
+@charset "UTF-8";
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+.myseason {
+  /* carousel css start */
+  /* carousel css end */
+}
+.myseason .header-background-img {
+  background-color: #fff;
+  background-image: url("../Assets/leaves.svg");
+  background-repeat: no-repeat;
+  background-position: -90px -130px;
+  background-size: 540px auto;
+}
+.myseason .container,
+.myseason .container-fluid {
+  padding: 0px;
+}
+.myseason .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.myseason .contact-us-header {
+  margin-top: 20px;
+}
+.myseason .float-right {
+  float: right;
+}
+.myseason .float-left {
+  float: left;
+}
+.myseason h1,
+.myseason h2,
+.myseason h3,
+.myseason h4,
+.myseason h5,
+.myseason h6 {
+  text-transform: uppercase;
+}
+.myseason h1 {
+  font-size: 1.8rem !important;
+}
+.myseason h2 {
+  font-size: 1.5rem !important;
+}
+.myseason h3 {
+  font-size: 1.3rem !important;
+}
+.myseason h4 {
+  font-size: 1rem !important;
+}
+.myseason .visible-xs,
+.myseason .visible-sm,
+.myseason .visible-md,
+.myseason .visible-lg,
+.myseason .visible-xl {
+  display: none !important;
+}
+.myseason .component {
+  position: static;
+}
+.myseason .component .btn-link:hover {
+  color: #a6c058;
+}
+.myseason .component .fa {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+  background-color: #023e59;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.myseason .component .fa:before {
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+.myseason .btn {
+  padding: 10px 24.99px 5px;
+  font-size: 30px;
+  font-family: "Museo Sans 500", "Museo Sans 300", Helvetica, Arial, sans-serif;
+  border-width: 0 0 4px 0;
+  border-bottom: 4px solid #eff1f2;
+  text-transform: uppercase;
+  position: relative;
+  text-decoration: none;
+}
+.myseason .btn-link {
+  border-bottom: 0;
+  padding: 0;
+  text-transform: unset;
+  font-size: 18px;
+  font-family: "Museo Sans 500", "Museo Sans 300", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  color: #023e59;
+}
+.myseason .btn-link:hover {
+  text-decoration: none;
+}
+.myseason .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.myseason .navbar-container .navbar {
+  font-size: 12px;
+  padding: 0px;
+}
+.myseason .navbar-container .main-nav {
+  list-style-type: none;
+  display: none;
+}
+.myseason .navbar-container .nav-links,
+.myseason .navbar-container .logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+.myseason .navbar-container .main-nav li {
+  position: relative;
+  display: block;
+}
+.myseason .navbar-container .navbar-toggle {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+  color: #000;
+  font-size: 24px;
+}
+.myseason .navbar-container #chkToggle {
+  display: none;
+}
+.myseason .navbar-container #chkToggle:checked + ul.main-nav {
+  display: block;
+}
+.myseason .navbar-container > .component:not(.nav-img-container) {
+  width: calc(50% - 70px);
+}
+.myseason .logo-main {
+  width: 100%;
+}
+.myseason .img-container-adjust {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  bottom: -50.01px;
+}
+.myseason .image-rel {
+  position: relative;
+  height: 100%;
+}
+.myseason .navbar-container ul {
+  padding: 0px !important;
+}
+.myseason .navbar-container .main-nav li > a:hover {
+  color: #a6c058;
+}
+.myseason .navbar-container .main-nav > li {
+  margin: 0px 15px 0px;
+  padding-bottom: 15px;
+}
+.myseason .navbar-container .main-nav > li > a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: "Museo Sans 500", "Museo Sans 300", Helvetica, Arial, sans-serif;
+  color: #023e59;
+  padding-left: 0;
+  padding-right: 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+.myseason .nav-img-container.component {
+  position: relative;
+  width: 150px;
+}
+.myseason .section-container .sheet {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+}
+.myseason .section-container .tile {
+  position: relative;
+}
+.myseason .section-container .banner-img {
+  width: 100%;
+}
+.myseason .s-one .head h1 {
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Museo Sans 500", "Times New Roman", Times, serif;
+}
+.myseason .s-one .head h1:after {
+  content: "";
+  height: calc(100% + 39.99px);
+  border: 5px dotted #fff;
+  border-width: 5px 0;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: -20px;
+  display: block;
+  width: auto;
+  border-color: #fff;
+}
+.myseason .btn-secondary {
+  color: #fff;
+  background-color: #a6c058;
+  border-color: #96b143;
+  border-bottom-color: #96b143;
+}
+.myseason .btn {
+  padding: 10px 24.99px 5px;
+  font-size: 30px;
+  font-family: MicrobrewOne, "Museo Sans 500", "Times New Roman", Times, serif;
+  border-width: 0 0 4px 0;
+  border-bottom: 4px solid #eff1f2;
+  text-transform: uppercase;
+  position: relative;
+  text-decoration: none;
+}
+.myseason .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.42857143;
+  border-radius: 5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.myseason .btn:active,
+.myseason .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.myseason .btn:hover,
+.myseason .btn:focus,
+.myseason .btn.focus {
+  color: #fff;
+  background-color: #8ca63f;
+  border-color: #708532;
+  text-decoration: none;
+}
+.myseason .bkg-color-section {
+  background-repeat: repeat;
+  background-size: 50%;
+  background: #efefef;
+}
+.myseason .carousel-tile .item img {
+  margin: 20px auto;
+  width: auto;
+  height: fit-content;
+  max-width: 150px;
+}
+.myseason .carousel-tile .item {
+  position: relative;
+  background-color: #fff;
+  min-height: 400px;
+  margin: 0px 10px;
+  overflow: hidden;
+  border-radius: 3%;
+}
+.myseason .carousel-tile .sheet {
+  position: absolute;
+  display: flex;
+}
+.myseason .carousel-tile .sheet.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.myseason .carousel-tile .slick-dots {
+  bottom: 35px;
+}
+.myseason .carousel-tile .slick-dots li button:before {
+  color: #fff;
+  opacity: 1;
+  font-size: 8px;
+  line-height: 19px;
+}
+.myseason .carousel-tile .slick-dots li.slick-active button:before {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.myseason .btn.btn-primary.btn-tile {
+  text-transform: none;
+  border-radius: 5%;
+}
+.myseason .slick-prev:before,
+.myseason .slick-next:before {
+  font-size: 35px;
+  opacity: 1;
+  color: #000;
+}
+.myseason .slick-prev,
+.myseason .slick-next {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+.myseason .slick-next:before {
+  content: "❯";
+}
+.myseason .slick-next {
+  right: -40px;
+}
+.myseason .slick-prev {
+  left: -40px;
+}
+.myseason .slick-prev:before {
+  content: "❮";
+}
+.myseason .s2-container {
+  height: 100%;
+}
+.myseason .s2-img-container {
+  height: 220px;
+}
+.myseason .center-s2 {
+  padding: 75px 26px 370px;
+  margin: 60px -15px 0;
+  border-radius: 5px;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #a6c058;
+}
+.myseason .s2-img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.myseason .section-container.s-two {
+  padding-top: 70px;
+}
+.myseason .bottom-s2-container {
+  margin-top: 55px;
+}
+.myseason img.s2-img {
+  position: absolute;
+  max-width: 99%;
+  max-height: 99%;
+  left: 50%;
+  /* bottom: 0; */
+  transform: translate(-50%, 0);
+}
+.myseason .left-s2 {
+  padding-right: 100px;
+}
+.myseason .right-s2 {
+  padding-left: 100px;
+}
+.myseason .btn.btn-secondary.s2-button {
+  background-color: #023e59;
+  border-color: #023e59;
+  border-bottom-color: #023e59;
+}
+.myseason .btn.btn-secondary.s2-button:hover {
+  background-color: #146184;
+  border-color: #146184;
+  border-bottom-color: #146184;
+}
+.myseason .title-s2:after {
+  position: absolute;
+  content: "";
+  width: 70px;
+  border-top: 1px solid #252424;
+  height: 0;
+  top: 70%;
+  z-index: 1;
+}
+.myseason .left-s2 .title-s2:after {
+  right: -90px;
+}
+.myseason .right-s2 .title-s2:after {
+  left: -90px;
+}
+.myseason .s-three {
+  padding-top: 150px;
+}
+.myseason .s-three-img {
+  position: absolute;
+  bottom: calc(100% - 75px);
+  height: 210px;
+  left: 0;
+  width: 180px;
+}
+.myseason .s3-img {
+  position: absolute;
+  max-width: 99%;
+  max-height: 99%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.myseason .s-three-container {
+  position: relative;
+}
+.myseason .s-three-fire-flames {
+  background-color: #d8562A;
+  height: 200px;
+}
+.myseason .s-three-bird-insect {
+  background-color: #00818d;
+  height: 200px;
+}
+.myseason .s-three-pets-animals {
+  background-color: #9d86a6;
+  height: 200px;
+}
+.myseason .s3-img-logo {
+  height: 50px;
+  float: right;
+  margin: 10px;
+}
+.myseason .s3-copy {
+  display: inline-block;
+  bottom: 10px;
+  position: absolute;
+}
+.myseason .text-transform-none {
+  text-transform: none;
+  color: #fff;
+}
+.myseason .s3-copy .fa-angle-double-right {
+  background-color: transparent !important;
+}
+.myseason .copy-container-carousel {
+  bottom: 10px;
+}
+.myseason .footer-wrap {
+  background-color: transparent;
+  background-image: url("../Assets/footer-grass-pattern.png"), url("../Assets/grass2.png");
+  background-position: bottom, bottom right;
+  background-repeat: repeat-x, no-repeat;
+  padding: 60px 0px;
+}
+.myseason .footer-wrap .title {
+  word-wrap: break-word;
+}
+.myseason ul#yw0 {
+  display: block;
+}
+.myseason .text-sitecolor {
+  color: #023e59;
+}
+.myseason .footer-menu a {
+  color: #023e59;
+}
+.myseason h3.title-s-three {
+  padding: 0px 20px;
+}
+
+/* xl */
+@media (min-width: 1200px) {
+  .myseason .visible-xl {
+    display: block !important;
+  }
+  .myseason .hidden-xl {
+    display: none !important;
+  }
+  .myseason .s2-center-img-container {
+    position: absolute;
+    left: -90px;
+    right: -90px;
+    bottom: -163px;
+  }
+  .myseason .s-three {
+    margin-top: 200px;
+  }
+}
+/* lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .myseason .visible-lg {
+    display: block !important;
+  }
+  .myseason .hidden-lg {
+    display: none !important;
+  }
+  .myseason .left-s2 {
+    padding-right: 70px;
+  }
+  .myseason .right-s2 {
+    padding-left: 70px;
+  }
+  .myseason .s2-center-img-container {
+    position: absolute;
+    left: -60px;
+    right: -60px;
+    bottom: -98px;
+  }
+  .myseason .s-three {
+    margin-top: 150px;
+  }
+}
+/* md */
+@media (min-width: 768px) and (max-width: 991px) {
+  .myseason .container {
+    width: 100%;
+    max-width: none;
+  }
+  .myseason .visible-md {
+    display: block !important;
+  }
+  .myseason .hidden-md {
+    display: none !important;
+  }
+  .myseason .left-s2 {
+    padding-right: 0px;
+  }
+  .myseason .right-s2 {
+    padding-left: 0px;
+  }
+  .myseason .title-s2:after {
+    display: none;
+  }
+  .myseason .center-s2 {
+    padding: 0px;
+    margin: auto;
+  }
+  .myseason .s2-img-responsive {
+    max-width: 70%;
+  }
+  .myseason .bottom-s2-container {
+    margin: 0px;
+  }
+  .myseason .s2-container {
+    width: 50%;
+  }
+  .myseason .s-three-bird-insect {
+    margin: 200px 0px;
+  }
+}
+/* sm */
+@media (min-width: 576px) and (max-width: 767px) {
+  .myseason .container {
+    width: 100%;
+    max-width: none;
+  }
+  .myseason .visible-sm {
+    display: block !important;
+  }
+  .myseason .hidden-sm {
+    display: none !important;
+  }
+  .myseason .left-s2 {
+    padding-right: 0px;
+  }
+  .myseason .right-s2 {
+    padding-left: 0px;
+  }
+  .myseason .title-s2:after {
+    display: none;
+  }
+  .myseason .center-s2 {
+    padding: 0px;
+    margin: auto;
+  }
+  .myseason .s2-img-responsive {
+    max-width: 70%;
+  }
+  .myseason .bottom-s2-container {
+    margin: 0px;
+  }
+  .myseason .s2-container {
+    width: 50%;
+  }
+  .myseason .s-three-bird-insect {
+    margin: 200px 0px;
+  }
+}
+/* xs */
+@media (max-width: 575px) {
+  .myseason .container {
+    width: 100%;
+    max-width: none;
+  }
+  .myseason .visible-xs {
+    display: block !important;
+  }
+  .myseason .hidden-xs {
+    display: none !important;
+  }
+  .myseason .left-s2 {
+    padding-right: 0px;
+  }
+  .myseason .right-s2 {
+    padding-left: 0px;
+  }
+  .myseason .title-s2:after {
+    display: none;
+  }
+  .myseason .center-s2 {
+    padding: 0px;
+    margin: auto;
+  }
+  .myseason .s2-img-responsive {
+    max-width: 70%;
+  }
+  .myseason .bottom-s2-container {
+    margin: 0px;
+  }
+  .myseason .s2-container {
+    width: 50%;
+  }
+  .myseason .s-three-bird-insect {
+    margin: 200px 0px;
+  }
+  .myseason .footer-wrap {
+    background-image: url("../Assets/footer-grass-pattern.png");
+  }
+}
+@media (min-width: 992px) {
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+
+  .navbar-container .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+  }
+
+  .navbar-container #chkToggle:checked + ul.main-nav {
+    display: flex !important;
+  }
+
+  .navbar-container .main-nav {
+    display: flex !important;
+  }
+
+  .navbar-container .navbar-toggle {
+    display: none;
+  }
+
+  .navbar-container .logo:hover,
+.navbar-container .nav-links:hover {
+    color: white;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-container #chkToggle:checked + ul.main-nav {
+    transition: all 300ms cubic-bezier(0.4, 0, 0.4, 1);
+  }
+
+  .navbar-container #chkToggle:checked + ul.main-nav {
+    -webkit-box-shadow: inset -8px 0px 15px -10px #1b242f;
+    box-shadow: inset -8px 0px 15px -10px #1b242f;
+    background-color: #f8f9fa;
+    height: 100%;
+    left: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 1050;
+    top: 0;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.4, 1);
+    width: 70vw;
+  }
+
+  .navbar-container .main-nav li {
+    text-align: center;
+    list-style: none;
+    padding: 25px 5px;
+    margin: -1px;
+    border-top: 1px solid #374458;
+    border-bottom: 1px solid #374458;
+    text-align: start;
+  }
+
+  .myseason .navbar-container {
+    margin-top: 0px;
+  }
+  .myseason .navbar-container .navbar-toggle {
+    display: block;
+  }
+  .myseason .header-background-img {
+    background-position: -90px -90px;
+    background-size: 340px auto;
+    z-index: 99;
+    height: 91px;
+  }
+  .myseason .img-container-adjust {
+    top: 25px;
+    left: -25px;
+  }
+  .myseason .nav-img-container.component {
+    width: 100px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
